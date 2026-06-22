@@ -1,0 +1,15 @@
+# Compiled class files / build output
+*.class
+out/
+target/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+
+# MySQL Workbench model autosave
+*.mwb.bak
+
+# Local credentials (do not commit real passwords)
+**/db.properties
