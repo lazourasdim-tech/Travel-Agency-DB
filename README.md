@@ -30,7 +30,7 @@ Prerequisites: MySQL 8+, JDK 8+, MySQL Connector/J driver.
 1. Clone the repository:
    ```bash
    git clone https://github.com/lazourasdim-tech/Travel-Agency-DB.git
-   cd travel-agency-management-system
+   cd Travel-Agency-DB
    ```
 2. Run the schema file against MySQL:
    ```bash
