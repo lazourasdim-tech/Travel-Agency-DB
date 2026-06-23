@@ -36,6 +36,9 @@ Prerequisites: MySQL 8+, JDK 8+, MySQL Connector/J driver.
    ```bash
    mysql -u root -p < travel_agency.sql
    ```
-3. Open `src/database/DBConnection.java` and set `URL`, `USER`, `PASSWORD`.
-4. Add the MySQL Connector/J `.jar` to the project classpath.
-5. Run `MainFrame.main()` (package `gui`).
+3. Open `BASEIS GUI - code -/src/database/DBConnection.java` and replace the placeholder password with your own.
+4. Open the project
+- Open the `BASEIS GUI - code -` folder as the project.
+- If `src` is not already marked as sources, right-click it and choose **Mark Directory as → Sources Root**.
+- Add the bundled driver as a library: **File → Project Structure → Libraries → + → Java**, then select `lib/mysql-connector-j-9.6.0.jar`.
+5. Run the main method in gui.MainFrame (src/gui/MainFrame.java)
